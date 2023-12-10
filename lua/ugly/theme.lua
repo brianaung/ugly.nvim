@@ -4,8 +4,8 @@ M.setup = function()
 	local theme = {}
 
 	local config = require("ugly.config")
-	local c = require("ugly.colors").default
 	local o = config.options
+	local c = require("ugly.colors").default
 
 	-- set highlight groups
 	theme.highlights = {
