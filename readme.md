@@ -17,6 +17,12 @@ To overwrite default configurations, call the setup function before setting your
 ```lua
 require("ugly").setup({
     -- default options that you can overwrite
-    transparent: false
+    transparent: false,
+	styles = {
+		comments = { italic = true },
+		keywords = { italic = true },
+		functions = {},
+		variables = {},
+    },
 })
 ```
