@@ -3,6 +3,7 @@
 local M = {}
 
 local defaults = {
+	variant = "dark", -- or "light"
 	transparent = false,
 	styles = {
 		-- Style to be applied to different syntax groups
