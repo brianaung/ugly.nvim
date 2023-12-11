@@ -4,29 +4,32 @@ M.default = {
 	none = "NONE",
 
 	bg = {
-		blue = "#005078",
-		cyan = "#007676",
-		green = "#015825",
-		grey1 = "#0a0b10",
-		grey2 = "#1c1d23",
-		grey3 = "#2c2e33",
-		grey4 = "#4f5258",
-		magenta = "#4c0049",
-		red = "#5e0009",
-		yellow = "#6e5600",
+		grey1 = "#0d0c0c",
+		grey2 = "#1D1C19",
+		grey3 = "#282727",
+		grey4 = "#625e5a",
+
+		red = "#A34943",
+		yellow = "#73613A",
+		green = "#507150",
+		cyan = "#377677",
+		blue = "#2D596C",
+		-- magenta = "#554270",
+		magenta = "#6A5B6B",
 	},
 
 	fg = {
-		blue = "#9fd8ff",
-		cyan = "#83efef",
-		green = "#aaedb7",
-		grey1 = "#ebeef5",
-		grey2 = "#d7dae1",
-		grey3 = "#c4c6cd",
-		grey4 = "#9b9ea4",
-		magenta = "#ffc3fa",
-		red = "#ffbcb5",
-		yellow = "#f4d88c",
+		grey1 = "#f0f3f0",
+		grey2 = "#c5c9c5", -- normal fg
+		grey3 = "#a6a69c",
+		grey4 = "#7a8382", -- comment
+
+		red = "#D39892",
+		yellow = "#CCBC99",
+		green = "#97B597",
+		cyan = "#A3D4D5",
+		blue = "#7FB4CA",
+		magenta = "#B8ACB9",
 	},
 }
 
