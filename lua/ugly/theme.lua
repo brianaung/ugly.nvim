@@ -90,7 +90,7 @@ M.setup = function()
 		WinSeparator = { link = "Normal" },
 
 		-- Syntax
-		Comment = { fg = fg.grey4 },
+		Comment = { fg = fg.grey4, style = o.styles.comments },
 
 		Constant = { fg = fg.grey2 },
 		String = { fg = fg.green },
@@ -99,15 +99,15 @@ M.setup = function()
 		Boolean = { link = "Constant" },
 		Float = { link = "Number" },
 
-		Identifier = { fg = fg.blue },
-		Function = { fg = fg.cyan },
+		Identifier = { fg = fg.blue, style = o.styles.variables },
+		Function = { fg = fg.cyan, style = o.styles.functions },
 
 		Statement = { fg = fg.grey2, bold = true },
 		Conditional = { link = "Statement" },
 		Repeat = { link = "Statement" },
 		Label = { link = "Statement" },
 		Operator = { fg = fg.grey2 },
-		Keyword = { link = "Statement" },
+		Keyword = { link = "Statement", style = o.styles.keywords },
 		Exception = { link = "Statement" },
 
 		PreProc = { fg = fg.grey2 },
