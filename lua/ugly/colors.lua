@@ -14,7 +14,7 @@ M.default = {
 		green = "#6A612F",
 		cyan = "#324E4B",
 		blue = "#364A43",
-		magenta = "#4E414A",
+		magenta = "#382E35",
 	},
 
 	fg = {
@@ -25,9 +25,9 @@ M.default = {
 
 		red = "#93535A", -- error
 		yellow = "#C4A06E", -- warn
-		green = "#BEAF5B", -- strings -- ok
-		cyan = "#5B8B86", -- func -- info
-		blue = "#91A699", -- identifier -- hint
+		green = "#BEAF5B", -- strings, ok
+		cyan = "#5B8B86", -- func, info
+		blue = "#91A699", -- identifier, hint
 		magenta = "#7D6876",
 	},
 }

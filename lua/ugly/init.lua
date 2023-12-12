@@ -7,9 +7,8 @@ local M = {}
 -- users can add configs with this before setting colorscheme
 M.setup = config.setup
 
--- load the colorscheme (take opts so I can add style variations in the future)
 M.load = function()
-	-- set highlight using the theme
+	-- set highlights using the theme
 	util.load(theme.setup())
 end
 

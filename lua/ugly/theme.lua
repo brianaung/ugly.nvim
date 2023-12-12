@@ -1,4 +1,3 @@
---[[ largely inspired by: https://github.com/neovim/neovim/pull/26334 ]]
 local M = {}
 
 M.setup = function()
@@ -7,15 +6,8 @@ M.setup = function()
 	local config = require("ugly.config")
 	local o = config.options
 	local c = require("ugly.colors").default
-	-- by default it will be dark (even if user configures unavailable variant)
 	local bg = o.variant == "light" and c.fg or c.bg
 	local fg = o.variant == "light" and c.bg or c.fg
-
-	-- todo:
-	-- set pmenu and floats to magenta?
-	-- test and change the accent colors (blue, green, magenta, etc)
-	-- update error colors
-	-- support treesitter
 
 	-- set highlight groups
 	theme.highlights = {
