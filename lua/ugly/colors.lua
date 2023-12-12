@@ -4,31 +4,31 @@ M.default = {
 	none = "NONE",
 
 	bg = {
-		grey1 = "#030203",
-		grey2 = "#0E0B0D", -- normal bg
-		grey3 = "#2A2226", -- cursorline
-		grey4 = "#4B3D44", -- visual
+		grey1 = "#0E0B0D",
+		grey2 = "#181416", -- normal bg
+		grey3 = "#282124", -- cursorline
+		grey4 = "#372F33", -- visual
 
-		red = "#4B2A2E",
-		yellow = "#5B4425",
-		green = "#403A1C",
-		cyan = "#243836",
-		blue = "#273530",
-		magenta = "#382E35",
+		red = "#78363E",
+		yellow = "#87632F",
+		green = "#665D24",
+		cyan = "#244743",
+		blue = "#355E53",
+		magenta = "#4D3641",
 	},
 
 	fg = {
-		grey1 = "#EEEBDD",
-		grey2 = "#d2c9a5", -- normal fg
-		grey3 = "#ab9b8e",
-		grey4 = "#847875", -- comment
+		grey1 = "#F2E8BF",
+		grey2 = "#E6DCB5", -- normal fg
+		grey3 = "#C7BF9D",
+		grey4 = "#807A65", -- comment
 
-		red = "#93535A", -- error
-		yellow = "#C4A06E", -- warn
-		green = "#BEAF5B", -- strings, ok
-		cyan = "#5B8B86", -- func, info
-		blue = "#91A699", -- identifier, hint
-		magenta = "#7D6876",
+		red = "#79444A", -- error
+		yellow = "#BA9158", -- warn
+		green = "#958D48", -- strings, ok
+		cyan = "#54807B", -- func, info
+		blue = "#8CABA1", -- identifier, hint
+		magenta = "#796C6D",
 	},
 }
 

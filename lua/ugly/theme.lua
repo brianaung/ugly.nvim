@@ -152,11 +152,11 @@ M.setup = function()
 		DiagnosticUnderlineHint = { sp = fg.blue, underline = true },
 		DiagnosticUnderlineOk = { sp = fg.green, underline = true },
 
-		DiagnosticFloatingError = { fg = fg.red },
-		DiagnosticFloatingWarn = { fg = fg.yellow },
-		DiagnosticFloatingInfo = { fg = fg.cyan },
-		DiagnosticFloatingHint = { fg = fg.blue },
-		DiagnosticFloatingOk = { fg = fg.green },
+		DiagnosticFloatingError = { fg = fg.red, bg = bg.grey3 },
+		DiagnosticFloatingWarn = { fg = fg.yellow, bg = bg.grey3 },
+		DiagnosticFloatingInfo = { fg = fg.cyan, bg = bg.grey3 },
+		DiagnosticFloatingHint = { fg = fg.blue, bg = bg.grey3 },
+		DiagnosticFloatingOk = { fg = fg.green, bg = bg.grey3 },
 
 		DiagnosticVirtualTextError = { link = "DiagnosticError" },
 		DiagnosticVirtualTextWarn = { link = "DiagnosticWarn" },
