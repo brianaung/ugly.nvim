@@ -38,7 +38,11 @@ require("ugly").setup({
 ```
 
 ## Screenshots
-Pending...
+Light Variant
+![Light Theme](https://github.com/brianaung/ugly.nvim/blob/main/screenshots/ugly-light.png?raw=true)
+
+Dark Variant
+![Dark Theme](https://github.com/brianaung/ugly.nvim/blob/main/screenshots/ugly-dark.png?raw=true)
 
 ## Acknowledgements
 - [Tokyonight](https://github.com/folke/tokyonight.nvim)
