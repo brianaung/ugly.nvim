@@ -100,7 +100,7 @@ M.setup = function()
 		Float = { link = "Number" },
 
 		Identifier = { fg = fg.blue, style = o.styles.variables },
-		Function = { fg = fg.cyan, style = o.styles.functions },
+		Function = { fg = fg.orange, style = o.styles.functions },
 
 		Statement = { fg = fg.grey2, bold = true },
 		Conditional = { link = "Statement" },
