@@ -9,17 +9,17 @@ M.default = {
 		grey3 = "#2A2226", -- cursorline
 		grey4 = "#4B3D44", -- visual
 
-		red = "#522E32",
-		yellow = "#7B5D32",
-		green = "#6A612F",
-		cyan = "#324E4B",
-		blue = "#364A43",
+		red = "#4B2A2E",
+		yellow = "#5B4425",
+		green = "#403A1C",
+		cyan = "#243836",
+		blue = "#273530",
 		magenta = "#382E35",
 	},
 
 	fg = {
-		grey1 = "#d2c9a5",
-		grey2 = "#d1b187", -- normal fg
+		grey1 = "#EEEBDD",
+		grey2 = "#d2c9a5", -- normal fg
 		grey3 = "#ab9b8e",
 		grey4 = "#847875", -- comment
 
