@@ -4,17 +4,17 @@ M.default = {
 	none = "NONE",
 
 	bg = {
-		grey1 = "#0E0B0D",
-		grey2 = "#161214", -- normal bg
+		grey1 = "#030203",
+		grey2 = "#0E0B0D", -- normal bg
 		grey3 = "#2A2226", -- cursorline
 		grey4 = "#4B3D44", -- visual
 
-		-- red = "#A34943",
-		-- yellow = "#73613A",
-		-- green = "#507150",
-		-- cyan = "#377677",
-		-- blue = "#2D596C",
-		magenta = "#4b3d44",
+		red = "#522E32",
+		yellow = "#7B5D32",
+		green = "#6A612F",
+		cyan = "#324E4B",
+		blue = "#364A43",
+		magenta = "#4E414A",
 	},
 
 	fg = {
@@ -23,12 +23,12 @@ M.default = {
 		grey3 = "#ab9b8e",
 		grey4 = "#847875", -- comment
 
-		red = "#79444a", -- error
-		yellow = "#ba9158", -- warn
-		green = "#b3a555", -- strings -- ok
-		cyan = "#4b726e", -- func -- info
-		blue = "#8caba1", -- identifier -- hint
-		magenta = "#574852",
+		red = "#93535A", -- error
+		yellow = "#C4A06E", -- warn
+		green = "#BEAF5B", -- strings -- ok
+		cyan = "#5B8B86", -- func -- info
+		blue = "#91A699", -- identifier -- hint
+		magenta = "#7D6876",
 	},
 }
 
